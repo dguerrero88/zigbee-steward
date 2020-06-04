@@ -75,10 +75,7 @@ func Database() *Db {
 
 func init() {
 	rw = &sync.RWMutex{}
-	dbPath, err := filepath.Abs("db.json")
-	if err != nil {
-		log.Fatalf("Can't load database. %s", err)
-	}
+	dbPath := filepath.Base("../../appconfig/db.json")
 	database = &Db{
 		tables: &tables{
 			Devices: map[string]*model.Device{},
