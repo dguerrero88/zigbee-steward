@@ -6,7 +6,7 @@ import (
 	"github.com/dyrkin/zcl-go"
 	"github.com/dyrkin/zcl-go/cluster"
 	"github.com/dyrkin/zcl-go/frame"
-	"github.com/dyrkin/zigbee-steward/coordinator"
+	"github.com/dguerrero88/zigbee-steward/coordinator"
 	"github.com/dyrkin/znp-go"
 )
 
