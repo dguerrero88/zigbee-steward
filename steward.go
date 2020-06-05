@@ -4,12 +4,12 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dyrkin/zcl-go"
 	"github.com/dyrkin/zcl-go/cluster"
-	"github.com/dyrkin/zigbee-steward/configuration"
-	"github.com/dyrkin/zigbee-steward/coordinator"
-	"github.com/dyrkin/zigbee-steward/db"
-	"github.com/dyrkin/zigbee-steward/functions"
-	"github.com/dyrkin/zigbee-steward/logger"
-	"github.com/dyrkin/zigbee-steward/model"
+	"github.com/dguerrero88/zigbee-steward/configuration"
+	"github.com/dguerrero88/zigbee-steward/coordinator"
+	"github.com/dguerrero88/zigbee-steward/db"
+	"github.com/dguerrero88/zigbee-steward/functions"
+	"github.com/dguerrero88/zigbee-steward/logger"
+	"github.com/dguerrero88/zigbee-steward/model"
 	"github.com/dyrkin/znp-go"
 )
 
