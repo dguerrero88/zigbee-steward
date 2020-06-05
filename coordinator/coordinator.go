@@ -10,8 +10,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/dyrkin/unp-go"
-	"github.com/dyrkin/zigbee-steward/configuration"
-	"github.com/dyrkin/zigbee-steward/logger"
+	"github.com/dguerrero88/zigbee-steward/configuration"
+	"github.com/dguerrero88/zigbee-steward/logger"
 	"github.com/dyrkin/znp-go"
 	"go.bug.st/serial.v1"
 )
