@@ -3,8 +3,8 @@ package db
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/dyrkin/zigbee-steward/logger"
-	"github.com/dyrkin/zigbee-steward/model"
+	"github.com/dguerrero88/zigbee-steward/logger"
+	"github.com/dguerrero88/zigbee-steward/model"
 	"github.com/natefinch/atomic"
 	"io/ioutil"
 	"os"
