@@ -75,7 +75,7 @@ func Database() *Db {
 
 func init() {
 	rw = &sync.RWMutex{}
-	dbPath, err := filepath.Abs("/data/user/userpersist/db.json")
+	dbPath, _ := filepath.Abs("/data/user/userpersist/db.json")
 	database = &Db{
 		tables: &tables{
 			Devices: map[string]*model.Device{},
