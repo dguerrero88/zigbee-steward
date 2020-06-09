@@ -8,7 +8,6 @@ import (
 	"github.com/natefinch/atomic"
 	"io/ioutil"
 	"os"
-	"path/filepath"
 	"sync"
 )
 
